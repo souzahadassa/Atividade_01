@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guia Git & GitHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>GUIA COMPLETO: Git e GitHub</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>O que é o Git</h2>
+      <p>O <strong>Git</strong> é um sistema de controle de versão distribuído, criado por Linus Torvalds, que permite que desenvolvedores acompanhem as alterações no código e colaborem de forma eficiente em projetos de software.</p>
+    </section>
+
+    <section>
+      <h2>O que é o GitHub</h2>
+      <p>O <strong>GitHub</strong> é uma plataforma de hospedagem de código-fonte com controle de versão usando Git. Ele facilita o trabalho em equipe, revisão de código, documentação e colaboração aberta ou privada.</p>
+    </section>
+
+    <section>
+      <h2>Diferenças entre Git e GitHub</h2>
+      <ul>
+        <li><strong>Git</strong> é a ferramenta de controle de versões.</li>
+        <li><strong>GitHub</strong> é uma plataforma baseada na nuvem que usa o Git.</li>
+        <li>Com o Git você versiona localmente, com o GitHub você compartilha e colabora online.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Principais comandos Linux para usar no Git Bash</h2>
+      <ul>
+        <li><code>ls</code> - Lista arquivos e diretórios.</li>
+        <li><code>cd</code> - Navega entre diretórios.</li>
+        <li><code>mkdir</code> - Cria uma nova pasta.</li>
+        <li><code>rm</code> - Remove arquivos.</li>
+        <li><code>clear</code> - Limpa o terminal.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Comandos do <code>readme.md</code> no repositório <a href="https://github.com/caixetovisk/aula_git" target="_blank" rel="noopener noreferrer">aula_git</a></h2>
+      <ul>
+        <li><code>git init</code> - Inicia um repositório Git.</li>
+        <li><code>git add .</code> - Adiciona todos os arquivos.</li>
+        <li><code>git commit -m "mensagem"</code> - Salva uma versão com uma mensagem.</li>
+        <li><code>git push</code> - Envia as mudanças para o GitHub.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Como criar um repositório no GitHub</h2>
+      <ol>
+        <li>Entre em <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a>.</li>
+        <li>Clique em <strong>New</strong> ou "+" &gt; <strong>New repository</strong>.</li>
+        <li>Dê um nome, escolha visibilidade, e clique em <strong>Create repository</strong>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Como ligar um projeto local a um repositório GitHub</h2>
+      <pre>
+git init
+git remote add origin https://github.com/usuario/repositorio.git
+git add .
+git commit -m "Primeiro commit"
+git push -u origin master
+      </pre>
+    </section>
+
+    <section>
+      <h2>Como gerar uma versão com Git</h2>
+      <p>Cada versão é um <em>commit</em>. Para gerar uma:</p>
+      <pre>
+git add .
+git commit -m "Versão 1.0 - Adiciona funcionalidades iniciais"
+      </pre>
+    </section>
+
+    <section>
+      <h2>Como enviar da máquina para o GitHub</h2>
+      <p>Depois de comitar, envie com:</p>
+      <pre>
+git push origin master
+      </pre>
+      <p>Se for o primeiro envio, use também:</p>
+      <pre>
+git rem
